@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install | chmod ug+x .husky/*"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/node": "20.5.9",
