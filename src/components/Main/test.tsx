@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react'
 import Main from '.'
 
 describe('<Main />', () => {
-  it('should render the heading', () => {
+  it('deve renderizar o título', () => {
     // renderiza o component
     const { container } = render(<Main />)
 
@@ -14,7 +14,7 @@ describe('<Main />', () => {
     expect(container.firstChild).toMatchSnapshot()
   })
 
-  it('should render the colors correctly', () => {
+  it('deve renderizar as cores corretamente', () => {
     // renderiza o component
     const { container } = render(<Main />)
 

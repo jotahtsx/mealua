@@ -14,7 +14,7 @@ export const Default: StoryObj = {}
 
 export const Basic: StoryObj = {
   args: {
-    title: 'title basic',
-    description: 'description basic'
+    title: 'Título Básico',
+    description: 'Descrição Básica'
   }
 }
