@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react'
 import Main from '.'
 
 describe('<Main />', () => {
-  it('should render the heading', () => {
+  it('deve renderizar o título', () => {
     // renderiza o component
     const { container } = render(<Main />)
 
