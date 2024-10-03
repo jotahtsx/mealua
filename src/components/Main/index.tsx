@@ -1,8 +1,12 @@
 import * as S from './styles'
 
-const Main = () => (
+const Main = ({
+  title = 'Mealua',
+  description = 'Somos a plataforma ideal para descobrir, jogar e compartilhar jogos com amigos.'
+}) => (
   <S.Wrapper>
-    <h1>Mealua</h1>
+    <S.Title>{title}</S.Title>
+    <S.Description>{description}</S.Description>
   </S.Wrapper>
 )
 
