@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Mealua',
-  description: 'Portal de Jogos'
+  description: 'Mealua é o lugar perfeito pra jogar, conversar e criar jogos!'
 }
 
 export default function RootLayout({
